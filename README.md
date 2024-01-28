@@ -4,9 +4,9 @@ Control mBot2 with Python
 # CyberPi Example Code
 
 1. LED
-2. Display
-3. Audio
-4. Sensing
+2. Sensing
+3. Display
+4. Audio
 5. Motion Sensing
 6. LAN
 7. AI
