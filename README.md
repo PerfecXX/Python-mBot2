@@ -36,10 +36,10 @@ Control mBot2 with Python
 
 # mBuild Example Code
 
-1. Ultrasonic Sensor
+1. [Ultrasonic Sensor](https://github.com/PerfecXX/Python-mBot2/tree/main/example/mbuild/01-Ultrasonic%20Sensor2)
 2. Quard RGB Sensor
 3. Smart Camera
-4. JoyStick Controller 
+4. [GamePad JoyStick Controller](https://github.com/PerfecXX/Python-mBot2/tree/main/example/gamepad) 
 
 
 # Reference 
