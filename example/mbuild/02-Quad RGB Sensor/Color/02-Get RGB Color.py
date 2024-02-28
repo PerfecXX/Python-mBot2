@@ -1,29 +1,26 @@
 import cyberpi,mbuild
 
-def convert_rgb(hex_color):
-    # Remove the leading '0x' if present and convert the hex string to integers
-    hex_color = hex_color.lstrip('0x')
-    # Split the hex string into three parts representing R, G, and B values
-    r_hex = hex_color[0:2]
-    g_hex = hex_color[2:4]
-    b_hex = hex_color[4:6]
-    # Convert each part from hexadecimal to integer
-    r = int(r_hex,16)
-    g = int(g_hex,16)
-    b = int(b_hex,16)
-    # Return the RGB values as a tuple
-    return (r,g,b)
-    
-cyberpi.display.show_label("L2:\nL1:\nR1:\nR2:", 16, 0, 0, index = 0)
+cyberpi.display.show_label("  L2 L1 R1 R2\nR:\nG:\nB:", 16, 0, 0, index = 0)
 
 while True:
     
-    l2 = mbuild.quad_rgb_sensor.get_color("L2")
-    l1 = mbuild.quad_rgb_sensor.get_color("L1")
-    r1 = mbuild.quad_rgb_sensor.get_color("R1")
-    r2 = mbuild.quad_rgb_sensor.get_color("R2")
+    l2_r = mbuild.quad_rgb_sensor.get_red("L2")
+    l2_g = mbuild.quad_rgb_sensor.get_green("L2")
+    l2_b = mbuild.quad_rgb_sensor.get_blue("L2")
     
-    cyberpi.display.show_label(convert_rgb(l2), 12, 36, 0, index = 1)
-    cyberpi.display.show_label(convert_rgb(l1), 12, 36, 18, index = 2)
-    cyberpi.display.show_label(convert_rgb(r1), 12, 36, 36, index = 3)
-    cyberpi.display.show_label(convert_rgb(r2), 12, 36, 54, index = 4)
+    l1_r = mbuild.quad_rgb_sensor.get_red("L1")
+    l1_g = mbuild.quad_rgb_sensor.get_green("L1")
+    l1_b = mbuild.quad_rgb_sensor.get_blue("L1")
+    
+    r1_r = mbuild.quad_rgb_sensor.get_red("R1")
+    r1_g = mbuild.quad_rgb_sensor.get_green("R1")
+    r1_b = mbuild.quad_rgb_sensor.get_blue("R1")
+    
+    r2_r = mbuild.quad_rgb_sensor.get_red("R2")
+    r2_g = mbuild.quad_rgb_sensor.get_green("R2")
+    r2_b = mbuild.quad_rgb_sensor.get_blue("R2")
+    
+
+    cyberpi.display.show_label("%d %d %d %d"%(l2_r,l1_r,r1_r,r2_r), 12, 18, 18, index = 1)
+    cyberpi.display.show_label("%d %d %d %d"%(l2_g,l1_g,r1_g,r2_g), 12, 18, 36, index = 2)
+    cyberpi.display.show_label("%d %d %d %d"%(l2_b,l1_b,r1_b,r2_b), 12, 18, 54, index = 3)
