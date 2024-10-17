@@ -40,12 +40,3 @@ Control mBot2 with Python
 2. [Quard RGB Sensor](https://github.com/PerfecXX/Python-mBot2/tree/main/example/mbuild/02-Quad%20RGB%20Sensor)
 3. Smart Camera
 4. [GamePad JoyStick Controller](https://github.com/PerfecXX/Python-mBot2/tree/main/example/gamepad) 
-
-
-# Reference 
-
-[Cyberpi Offical API](https://education.makeblock.com/help/mblock-python-editor-python-api-documentation-for-cyberpi/)
-
-[mBuild Sensor Offical API](https://education.makeblock.com/help/mblock-python-editor-apis-for-mbuild-modules/)
-
-[mBot2/Pocket Shield Offical API](https://education.makeblock.com/help/mblock-python-editor-apis-for-extension-boards/)
