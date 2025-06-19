@@ -18,3 +18,19 @@ Below is the default button layout:
 
 ![](https://github.com/PerfecXX/Python-mBot2/blob/main/doc/makeblock_joysick_mappings.png)
 
+# Getting Started
+
+## Battery Installation
+
+1. Remove the battery covers from the back of the controller.
+2. Insert two AA batteries into the battery compartments, ensuring correct polarity (plus and minus ends).
+3. Reattach the battery covers to the back of the controller.
+
+![](https://github.com/PerfecXX/Python-mBot2/blob/main/doc/makeblock_joystick_batt_installation.png)
+
+Notes: When the indicator is solid red, it indicates the battery is low and needs to be replaced in time.
+
+## Bluetooth Pairing 
+
+1. Turn on the bluetooth controller. The indicator flashes slowly in blue. ![](https://github.com/PerfecXX/Python-mBot2/blob/main/doc/makeblock_joystick_pairing_01.png)
+2. Place the controller close to the Bluetooth module of the mBot, and press and hold the button until the indicator flashes rapidly. Then release the bluetooth button and the pairing is automatically performed. ![](https://github.com/PerfecXX/Python-mBot2/blob/main/doc/makeblock_joystick_pairing_02.png) 
