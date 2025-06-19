@@ -22,5 +22,4 @@ Control mBot2 with Python
 
  # Project
 
- - mBot2 Bluetooth Controller
- - mBot2 LineTracker 
+ Click [Here](https://github.com/PerfecXX/Python-mBot2/tree/main/project) to explore more project!
