@@ -88,22 +88,35 @@ mbuild.speaker.play_melody("!101", 1)
 |!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
 |!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
 |!108|Sad|!208|Jump|!308|Click|!408|"7"|!508|"Purple"|!608|Moo|!708|Fire Truck|
-|!109|Sigh|!209|Laser|
-|!110|Annoyed|!210|Level Up|
-|!111|Angry|!211|Low Energy|
-|!112|Surprised|!212|Prompt-Tone|
-|!113|Yummy|!213|Prompt-Tone-Up|
-|!114|Curious|!214|Prompt-Tone-Down|
-|!115|Embarrassed|!215|Right|
-|!116|Ready|!216|Wrong|
-|!117|Sprint|!217|Ring|
-|!118|Sleepy|!218|Score|
-|!119|Meow|!219|Step-1|
-|!120|Hurt|!220|Step-2|
-|    |    |!221|Wake|
-|    |    |!222|Warning|
-|    |    |!223|Radar|
-
+|!109|Sigh|!209|Laser|!309|Bell|!409|"8"|
+|!110|Annoyed|!210|Level Up|!310|Current|!410|"9"|
+|!111|Angry|!211|Low Energy|!311|Switch|!411|"."|
+|!112|Surprised|!212|Prompt-Tone|!312|Wood Hit1|!412|"A"|
+|!113|Yummy|!213|Prompt Tone Up|!313|Wood Hit2|!413|"B"|
+|!114|Curious|!214|Prompt Tone Down|!314|Wood Hit3|!414|"C"|
+|!115|Embarrassed|!215|Right|!315|Wood Hit4|!415|"D"|
+|!116|Ready|!216|Wrong|!316|Wood Hit5|!416|"E"|
+|!117|Sprint|!217|Ring|!317|Iron1|!417|"F"|
+|!118|Sleepy|!218|Score|!318|Iron2|!418|"G"|
+|!119|Meow|!219|Step1|!319|Buckle|!419|"H"|
+|!120|Hurt|!220|Step2|!320|Coin|!420|"I"|
+|    |    |!221|Wake|!321|Drop|!421|"J"|
+|    |    |!222|Warning|!322|Bubble1|!422|"K"|
+|    |    |!223|Radar|!323|Bubble2|!423|"L"|
+|    |    |    |     |!324|Wine Button Open|!424|"M"|
+|    |    |    |     |!325|Wave|!425|"N"|
+|    |    |    |     |!326|Magic|!426|"O"|
+|    |    |    |     |!327|Spitfire|!427|"P"|
+|    |    |    |     |!328|Heartbeat|!428|"Q"|
+|    |    |    |     |!329|Load|!429|"R"|
+|    |    |    |     |    |    |!430|"S"|
+|    |    |    |     |    |    |!431|"T"|
+|    |    |    |     |    |    |!432|"U"|
+|    |    |    |     |    |    |!433|"V"|
+|    |    |    |     |    |    |!434|"W"|
+|    |    |    |     |    |    |!435|"X"|
+|    |    |    |     |    |    |!436|"Y"|
+|    |    |    |     |    |    |!437|"Z"|
 
 ## Play Note
 
