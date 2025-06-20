@@ -67,6 +67,24 @@ Misoperations may damage the preset sound library, causing the preset sounds to 
 3.  Download and decompress the [preset sounds](https://www.google.com/search?q=) package, then copy all its audio files to the USB root directory.
 4.  Select 'Safely eject USB drive' and then unplug the speaker module from the computer.
 
+## Play Preset Sound 
+
+The speaker can sound effect builtin with speaker module by passing the corresponding name
+
+```python
+# Replace "!101" with builtin sound effect 
+mbuild.speaker.play_melody("!101", 1)
+```
+
+## Sound Effect Table
+
+| Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound |Name | Sound |Name | Sound |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|!101|Hello!|!201|Start|!301|metal-clash|!401|"0"|!501|"Black"|!601|Quack!|!701|Airplane|
+|!102|Hi!|!202|Switch|!302|shot-1|!402|"1"|!502|"red"|!602|Chirp|!702|Police Siren|
+|!103|Bye|!203|Beeps|!303|shot-2|!403|"2"|!503|"orange"|!603|Hoofbeat|!703|Ship Horn|
+|!104|Yeah|!204|Buzzing|!304|glass-clink|!404|"3"|!504|"yellow"|!604|Whinny|!704|Bicycle|
+
 ## Play Note
 
 The speaker can also play notes by passing the corresponding note frequency.
@@ -94,3 +112,5 @@ mbuild.speaker.play_tone(700, index=1)
 | E6 | 1319 | F6 | 1397 | G6 | 1568 | A6 | 1760 | B6 | 1976 |
 | C7 | 2093 | D7 | 2349 | E7 | 2637 | F7 | 2794 | G7 | 3136 |
 | A7 | 3520 | B7 | 3951 | C8 | 4186 | D8 | 4699 | | |
+
+
