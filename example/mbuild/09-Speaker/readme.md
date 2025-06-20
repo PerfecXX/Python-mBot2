@@ -88,9 +88,9 @@ mbuild.speaker.play_melody("!101", 1)
 |!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
 |!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
 |!108|Sad|!208|Jump|!308|Click|!408|"7"|!508|"Purple"|!608|Moo|!708|Fire Truck|
-|!109|Sigh|!209|Laser|!309|Bell|!409|"8"|!509|"Gray"|
-|!110|Annoyed|!210|Level Up|!310|Current|!410|"9"|!510|"White"|
-|!111|Angry|!211|Low Energy|!311|Switch|!411|"."|!511|"Brown"|
+|!109|Sigh|!209|Laser|!309|Bell|!409|"8"|!509|"Gray"|!609|Dinosaur|
+|!110|Annoyed|!210|Level Up|!310|Current|!410|"9"|!510|"White"|!610|Elephant|
+|!111|Angry|!211|Low Energy|!311|Switch|!411|"."|!511|"Brown"|!611|Crow|
 |!112|Surprised|!212|Prompt-Tone|!312|Wood Hit1|!412|"A"|!512|"Pink"|
 |!113|Yummy|!213|Prompt Tone Up|!313|Wood Hit2|!413|"B"|!521|"Sunny"|
 |!114|Curious|!214|Prompt Tone Down|!314|Wood Hit3|!414|"C"|!522|"Rainy"|
