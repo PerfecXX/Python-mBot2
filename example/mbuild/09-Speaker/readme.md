@@ -85,9 +85,9 @@ mbuild.speaker.play_melody("!101", 1)
 |!103|Bye|!203|Beeps|!303|shot-2|!403|"2"|!503|"Orange"|!603|Hoofbeat|!703|Ship Horn|
 |!104|Yeah|!204|Buzzing|!304|glass-clink|!404|"3"|!504|"Yellow"|!604|Whinny|!704|Bicycle|
 |!105|Wow|!205|Exhaust|!305|Inflator|!405|"4"|!505|"Green"|!605|Meh|!705|Helicopter|
-|!106|Laugh|!206|Explosion|!306|glass-clink|!406|"3"|!506|"yellow"|!606|Whinny|!706|Bicycle|
-|!107|Yeah|!204|Buzzing|!304|glass-clink|!404|"3"|!504|"yellow"|!604|Whinny|!704|Bicycle|
-|!108|Yeah|!204|Buzzing|!304|glass-clink|!404|"3"|!504|"yellow"|!604|Whinny|!704|Bicycle|
+|!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
+|!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
+|!108|Sad|!208|Jump|!308|Click|!408|"7"|!508|"Purple"|!608|Moo|!708|Fire Truck|
 
 ## Play Note
 
