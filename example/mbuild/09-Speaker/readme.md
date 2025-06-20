@@ -80,7 +80,7 @@ mbuild.speaker.play_melody("!101", 1)
 
 ## Sound Effect Table
 
-| Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound |
+| Name | Emotional Sound | Name | Electronic Sound | Name | Physical Sound | Name | Number/Latter | Name | English Word | Name | Animal Sound | Name | Transport Sound |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | !101 | Hello! | !201 | Start | !301 | Metal Clash | !401 | "0" | !501 | "Black" | !601 | Quack! | !701 | Airplane |
 | !102 | Hi! | !202 | Switch | !302 | Shot1 | !402 | "1" | !502 | "Red" | !602 | Chirp | !702 | Police Siren |
