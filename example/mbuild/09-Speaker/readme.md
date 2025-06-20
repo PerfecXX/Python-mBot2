@@ -67,56 +67,58 @@ Misoperations may damage the preset sound library, causing the preset sounds to 
 3.  Download and decompress the [preset sounds](https://www.google.com/search?q=) package, then copy all its audio files to the USB root directory.
 4.  Select 'Safely eject USB drive' and then unplug the speaker module from the computer.
 
-## Play Preset Sound 
+## Play Preset Sound
 
-The speaker can sound effect builtin with speaker module by passing the corresponding name
+The speaker can play built-in sound effects by passing the corresponding sound's name.
 
 ```python
-# Replace "!101" with builtin sound effect 
+# Replace "!101" with the desired built-in sound effect name
 mbuild.speaker.play_melody("!101", 1)
 ```
 
+---
+
 ## Sound Effect Table
 
-| Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound |Name | Sound |Name | Sound |
+| Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|!101|Hello!|!201|Start|!301|Metal Clash|!401|"0"|!501|"Black"|!601|Quack!|!701|Airplane|
-|!102|Hi!|!202|Switch|!302|Shot1|!402|"1"|!502|"Red"|!602|Chirp|!702|Police Siren|
-|!103|Bye|!203|Beeps|!303|Shot2|!403|"2"|!503|"Orange"|!603|Hoofbeat|!703|Ship Horn|
-|!104|Yeah|!204|Buzzing|!304|Glass Clink|!404|"3"|!504|"Yellow"|!604|Whinny|!704|Bicycle|
-|!105|Wow|!205|Exhaust|!305|Inflator|!405|"4"|!505|"Green"|!605|Meh|!705|Helicopter|
-|!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
-|!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
-|!108|Sad|!208|Jump|!308|Click|!408|"7"|!508|"Purple"|!608|Moo|!708|Fire Truck|
-|!109|Sigh|!209|Laser|!309|Bell|!409|"8"|!509|"Gray"|!609|Dinosaur|!709|Car|
-|!110|Annoyed|!210|Level Up|!310|Current|!410|"9"|!510|"White"|!610|Elephant|!710|Car Starting Up|
-|!111|Angry|!211|Low Energy|!311|Switch|!411|"."|!511|"Brown"|!611|Crow|!711|Ambulance|
-|!112|Surprised|!212|Prompt-Tone|!312|Wood Hit1|!412|"A"|!512|"Pink"|
-|!113|Yummy|!213|Prompt Tone Up|!313|Wood Hit2|!413|"B"|!521|"Sunny"|
-|!114|Curious|!214|Prompt Tone Down|!314|Wood Hit3|!414|"C"|!522|"Rainy"|
-|!115|Embarrassed|!215|Right|!315|Wood Hit4|!415|"D"|!523|"Cloudy"|
-|!116|Ready|!216|Wrong|!316|Wood Hit5|!416|"E"|!524|"Windy"|
-|!117|Sprint|!217|Ring|!317|Iron1|!417|"F"|!525|"Snowy"|
-|!118|Sleepy|!218|Score|!318|Iron2|!418|"G"|!526|"Foggy"|
-|!119|Meow|!219|Step1|!319|Buckle|!419|"H"|!531|"Yes"|
-|!120|Hurt|!220|Step2|!320|Coin|!420|"I"|!531|"No"|
-|    |    |!221|Wake|!321|Drop|!421|"J"|!533|"OK"|
-|    |    |!222|Warning|!322|Bubble1|!422|"K"|!534|"Good"|
-|    |    |!223|Radar|!323|Bubble2|!423|"L"|!535|"Thank You"|
-|    |    |    |     |!324|Wine Button Open|!424|"M"|!541|"Cm."|
-|    |    |    |     |!325|Wave|!425|"N"|!542|"Inch"|
-|    |    |    |     |!326|Magic|!426|"O"|!543|"Celsius"|
-|    |    |    |     |!327|Spitfire|!427|"P"|!544|"Fahrenheit"|
-|    |    |    |     |!328|Heartbeat|!428|"Q"|!545|"Percentage"|
-|    |    |    |     |!329|Load|!429|"R"|
-|    |    |    |     |    |    |!430|"S"|
-|    |    |    |     |    |    |!431|"T"|
-|    |    |    |     |    |    |!432|"U"|
-|    |    |    |     |    |    |!433|"V"|
-|    |    |    |     |    |    |!434|"W"|
-|    |    |    |     |    |    |!435|"X"|
-|    |    |    |     |    |    |!436|"Y"|
-|    |    |    |     |    |    |!437|"Z"|
+| !101 | Hello! | !201 | Start | !301 | Metal Clash | !401 | "0" | !501 | "Black" | !601 | Quack! | !701 | Airplane |
+| !102 | Hi! | !202 | Switch | !302 | Shot1 | !402 | "1" | !502 | "Red" | !602 | Chirp | !702 | Police Siren |
+| !103 | Bye | !203 | Beeps | !303 | Shot2 | !403 | "2" | !503 | "Orange" | !603 | Hoofbeat | !703 | Ship Horn |
+| !104 | Yeah | !204 | Buzzing | !304 | Glass Clink | !404 | "3" | !504 | "Yellow" | !604 | Whinny | !704 | Bicycle |
+| !105 | Wow | !205 | Exhaust | !305 | Inflator | !405 | "4" | !505 | "Green" | !605 | Meh | !705 | Helicopter |
+| !106 | Laugh | !206 | Explosion | !306 | Running Water | !406 | "5" | !506 | "Cyan" | !606 | Roar | !706 | Train Track |
+| !107 | Hum | !207 | Gotcha | !307 | Clockwork | !407 | "6" | !507 | "Blue" | !607 | Bark | !707 | Train Horn |
+| !108 | Sad | !208 | Jump | !308 | Click | !408 | "7" | !508 | "Purple" | !608 | Moo | !708 | Fire Truck |
+| !109 | Sigh | !209 | Laser | !309 | Bell | !409 | "8" | !509 | "Gray" | !609 | Dinosaur | !709 | Car |
+| !110 | Annoyed | !210 | Level Up | !310 | Current | !410 | "9" | !510 | "White" | !610 | Elephant | !710 | Car Starting Up |
+| !111 | Angry | !211 | Low Energy | !311 | Switch | !411 | "." | !511 | "Brown" | !611 | Crow | !711 | Ambulance |
+| !112 | Surprised | !212 | Prompt-Tone | !312 | Wood Hit1 | !412 | "A" | !512 | "Pink" | | | | |
+| !113 | Yummy | !213 | Prompt Tone Up | !313 | Wood Hit2 | !413 | "B" | !521 | "Sunny" | | | | |
+| !114 | Curious | !214 | Prompt Tone Down | !314 | Wood Hit3 | !414 | "C" | !522 | "Rainy" | | | | |
+| !115 | Embarrassed | !215 | Right | !315 | Wood Hit4 | !415 | "D" | !523 | "Cloudy" | | | | |
+| !116 | Ready | !216 | Wrong | !316 | Wood Hit5 | !416 | "E" | !524 | "Windy" | | | | |
+| !117 | Sprint | !217 | Ring | !317 | Iron1 | !417 | "F" | !525 | "Snowy" | | | | |
+| !118 | Sleepy | !218 | Score | !318 | Iron2 | !418 | "G" | !526 | "Foggy" | | | | |
+| !119 | Meow | !219 | Step1 | !319 | Buckle | !419 | "H" | !531 | "Yes" | | | | |
+| !120 | Hurt | !220 | Step2 | !320 | Coin | !420 | "I" | !531 | "No" | | | | |
+| | | !221 | Wake | !321 | Drop | !421 | "J" | !533 | "OK" | | | | |
+| | | !222 | Warning | !322 | Bubble1 | !422 | "K" | !534 | "Good" | | | | |
+| | | !223 | Radar | !323 | Bubble2 | !423 | "L" | !535 | "Thank You" | | | | |
+| | | | | !324 | Wine Button Open | !424 | "M" | !541 | "Cm." | | | | |
+| | | | | !325 | Wave | !425 | "N" | !542 | "Inch" | | | | |
+| | | | | !326 | Magic | !426 | "O" | !543 | "Celsius" | | | | |
+| | | | | !327 | Spitfire | !427 | "P" | !544 | "Fahrenheit" | | | | |
+| | | | | !328 | Heartbeat | !428 | "Q" | !545 | "Percentage" | | | | |
+| | | | | !329 | Load | !429 | "R" | | | | | | |
+| | | | | | | !430 | "S" | | | | | | |
+| | | | | | | !431 | "T" | | | | | | |
+| | | | | | | !432 | "U" | | | | | | |
+| | | | | | | !433 | "V" | | | | | | |
+| | | | | | | !434 | "W" | | | | | | |
+| | | | | | | !435 | "X" | | | | | | |
+| | | | | | | !436 | "Y" | | | | | | |
+| | | | | | | !437 | "Z" | | | | | | |
 
 ## Play Note
 
