@@ -80,10 +80,10 @@ mbuild.speaker.play_melody("!101", 1)
 
 | Name | Sound | Name | Sound | Name | Sound | Name | Sound | Name | Sound |Name | Sound |Name | Sound |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|!101|Hello!|!201|Start|!301|metal-clash|!401|"0"|!501|"Black"|!601|Quack!|!701|Airplane|
-|!102|Hi!|!202|Switch|!302|shot-1|!402|"1"|!502|"Red"|!602|Chirp|!702|Police Siren|
-|!103|Bye|!203|Beeps|!303|shot-2|!403|"2"|!503|"Orange"|!603|Hoofbeat|!703|Ship Horn|
-|!104|Yeah|!204|Buzzing|!304|glass-clink|!404|"3"|!504|"Yellow"|!604|Whinny|!704|Bicycle|
+|!101|Hello!|!201|Start|!301|Metal Clash|!401|"0"|!501|"Black"|!601|Quack!|!701|Airplane|
+|!102|Hi!|!202|Switch|!302|Shot1|!402|"1"|!502|"Red"|!602|Chirp|!702|Police Siren|
+|!103|Bye|!203|Beeps|!303|Shot2|!403|"2"|!503|"Orange"|!603|Hoofbeat|!703|Ship Horn|
+|!104|Yeah|!204|Buzzing|!304|Glass Clink|!404|"3"|!504|"Yellow"|!604|Whinny|!704|Bicycle|
 |!105|Wow|!205|Exhaust|!305|Inflator|!405|"4"|!505|"Green"|!605|Meh|!705|Helicopter|
 |!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
 |!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
