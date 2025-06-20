@@ -88,8 +88,21 @@ mbuild.speaker.play_melody("!101", 1)
 |!106|Laugh|!206|Explosion|!306|Running Water|!406|"5"|!506|"Cyan"|!606|Roar|!706|Train Track|
 |!107|Hum|!207|Gotcha|!307|Clockwork|!407|"6"|!507|"blue"|!607|Bark|!707|Train Horn|
 |!108|Sad|!208|Jump|!308|Click|!408|"7"|!508|"Purple"|!608|Moo|!708|Fire Truck|
-|!109|Sigh|
-|!110|Annoyed|
+|!109|Sigh|!209|Laser|
+|!110|Annoyed|!210|Level Up|
+|!111|Angry|!211|Low Energy|
+|!112|Surprised|!212|Prompt-Tone|
+|!113|Yummy|!213|Prompt-Tone-Up|
+|!114|Curious|!214|Prompt-Tone-Down|
+|!115|Embarrassed|!215|Right|
+|!116|Ready|!216|Wrong|
+|!117|Sprint|!217|Ring|
+|!118|Sleepy|!218|Score|
+|!119|Meow|!219|Step-1|
+|!120|Hurt|!220|Step-2|
+|    |    |!221|Wake|
+|    |    |!222|Warning|
+|    |    |!223|Radar|
 
 
 ## Play Note
