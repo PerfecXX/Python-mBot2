@@ -2,6 +2,7 @@ import cyberpi, mbuild
 
 mbuild.smart_camera.set_mode("color", 1)
 mbuild.smart_camera.open_light(1)
+mbuild.smart_camera.reset(1)
 mbuild.smart_camera.learn(1, "until_button", 1)
 
 while True:
