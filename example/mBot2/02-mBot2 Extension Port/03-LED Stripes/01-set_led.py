@@ -4,3 +4,6 @@ import cyberpi, mbot2, time
 mbot2.led_on(255, 0, 0, 1, "S1")
 time.sleep(3)
 mbot2.led_on(0, 255, 0, "all", "S2")
+time.sleep(3)
+mbot2.led_off("all", "S1")
+mbot2.led_off("all", "S2")
