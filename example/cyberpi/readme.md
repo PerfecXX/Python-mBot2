@@ -27,4 +27,8 @@ and thus it can meet diversified education needs, such as AI, IoT, data science,
 | **Dimensions**            | 84 mm × 35 mm × 13 mm (height × width × depth)                             |
 | **Weight**                | 36 g                                                                         |
 
+# CyberPi Port
 
+CyberPi is equipped with a USB Type-C port, a port for connecting to electronic modules, and a port for connecting to extension boards, which allow CyberPi to easily and quickly connect to various types of electronic modules and extension boards.
+
+![](https://github.com/PerfecXX/Python-mBot2/blob/main/doc/makeblock_cyberpi_port_feature.png)
