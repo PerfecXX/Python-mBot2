@@ -1,6 +1,8 @@
 """
 Author      : Teeraphat Kullanankanjana
-Version     : 1.0.0
+Version     : 1.0  
+Date        : 2025-07-12  
+Copyright   : © 2025 Teeraphat Kullanankanjana. All rights reserved.  
 Description : A recursive function to list all files and directories starting from the given path on CyberPi.
 """
 
