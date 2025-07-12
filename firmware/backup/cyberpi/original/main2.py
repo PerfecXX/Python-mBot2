@@ -20,7 +20,6 @@ def on_start():
         cyberpi.display.set_brush(random.randint(1, 255),
                                   random.randint(1, 255),
                                   random.randint(1, 255))
-        # 直到按钮按下前，提示文本的颜色都将随机变化。
         cyberpi.console.print('')
         time.sleep(0.1)
 
